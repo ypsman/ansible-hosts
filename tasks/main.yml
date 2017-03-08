@@ -1,0 +1,8 @@
+---
+# tasks file for hosts
+- name: Editing /etc/hosts entries
+  blockinfile:
+    dest: /etc/hosts
+    block: |
+            {{ hosts_entries }}
+  when: hosts_entries is defined and hosts_entries is defined

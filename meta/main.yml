@@ -1,0 +1,20 @@
+galaxy_info:
+  author: ypsman
+  description: Setup entries in hosts file (/etc/hosts)
+  license: license (GPLv2, CC-BY, etc)
+  min_ansible_version: 1.2
+  platforms:
+  - name: Debian
+    versions:
+    - stretch
+    - jessie
+    - wheezy
+  - name: Ubuntu
+    versions: all
+  galaxy_tags:
+  - hosts
+  - hostname
+  - dns
+  - ubuntu
+  - debian
+dependencies: []
