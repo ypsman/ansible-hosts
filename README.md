@@ -4,6 +4,7 @@ ansible hosts
 
 Setup entries in hosts file (/etc/hosts)
 
+
 Example Playbook
 ----------------
 
